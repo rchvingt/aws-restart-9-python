@@ -31,3 +31,24 @@ elif userReply=='copy':
     print("Here are {} copies".format(copies))
 else:
     print("Thank you, please comeback again")
+    
+    
+    
+#If someone’s age is greater than 18, consider them to be an adult. Else, if their age is between 13 and 18, consider them to be a teen. Else, consider them a child
+userAge=input("your age? ")
+age=int(userAge)
+if age>18:
+    print("adult")
+elif 13<age<18:
+    print("teen")
+else:
+    print("child")
+
+bananas=5
+if bananas >= 5:
+     print("I have bunch of bananas")
+elif bananas <=4:
+    print("I have small bananas")
+else:
+    print("I have no bananas")
+    

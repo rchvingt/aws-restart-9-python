@@ -81,3 +81,15 @@ print(type(myFavoriteFruitDictionary))
 print(myFavoriteFruitDictionary["Akua"])
 print(myFavoriteFruitDictionary["Saanvi"])
 print(myFavoriteFruitDictionary["Paulo"])
+
+#Create a dictionary and create four key:valuepairs in it
+myDict= {}
+myDict["one"] = 1
+myDict["two"] = 2
+myDict[3] = "three"
+myDict["four"] = 4.4
+print(myDict)
+print(myDict[3])
+print("\n")
+for key, value in myDict.items():
+    print(key, value)
